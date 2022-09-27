@@ -8,8 +8,8 @@ for (const param of groupId) {
 
 const code = new QRCode(qrDiv, {
     text: id[1],
-    width: 256,
-    height: 256,
+    width: 200,
+    height: 200,
     colorDark: "#000000",
     colorLight: "#ffffff",
 });
